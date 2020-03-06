@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G2022" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Flashcards" representedClassName="Flashcards" syncable="YES" codeGenerationType="class">
+        <attribute name="answer" attributeType="String"/>
+        <attribute name="isAnswerRevealed" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="question" attributeType="String"/>
+        <attribute name="subject" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Flashcards" positionX="-54" positionY="-9" width="128" height="103"/>
+    </elements>
+</model>
