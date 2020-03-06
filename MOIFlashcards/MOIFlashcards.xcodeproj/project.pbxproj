@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19660196241209F400F2FAE7 /* Flashcards+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19660195241209F400F2FAE7 /* Flashcards+Convenience.swift */; };
+		1966019824120B0100F2FAE7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1966019724120B0100F2FAE7 /* CoreDataStack.swift */; };
 		19C3F63524006AFD00B6142B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F63424006AFD00B6142B /* AppDelegate.swift */; };
 		19C3F63724006AFD00B6142B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F63624006AFD00B6142B /* SceneDelegate.swift */; };
 		19C3F63C24006AFD00B6142B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C3F63A24006AFD00B6142B /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19660195241209F400F2FAE7 /* Flashcards+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flashcards+Convenience.swift"; sourceTree = "<group>"; };
+		1966019724120B0100F2FAE7 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		19C3F63124006AFD00B6142B /* MOIFlashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOIFlashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C3F63424006AFD00B6142B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19C3F63624006AFD00B6142B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +76,6 @@
 				19C3F64024006AFF00B6142B /* Assets.xcassets */,
 				19C3F64224006AFF00B6142B /* LaunchScreen.storyboard */,
 				19C3F64524006AFF00B6142B /* Info.plist */,
-				19C3F63D24006AFD00B6142B /* MOIFlashcards.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -80,6 +83,9 @@
 		19C3F64C24006BE200B6142B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				19C3F63D24006AFD00B6142B /* MOIFlashcards.xcdatamodeld */,
+				19660195241209F400F2FAE7 /* Flashcards+Convenience.swift */,
+				1966019724120B0100F2FAE7 /* CoreDataStack.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,8 +192,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1966019824120B0100F2FAE7 /* CoreDataStack.swift in Sources */,
 				19C3F63524006AFD00B6142B /* AppDelegate.swift in Sources */,
 				19C3F63F24006AFD00B6142B /* MOIFlashcards.xcdatamodeld in Sources */,
+				19660196241209F400F2FAE7 /* Flashcards+Convenience.swift in Sources */,
 				19C3F63724006AFD00B6142B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9VU68T7UJ;
-				INFOPLIST_FILE = MOIFlashcards/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MOIFlashcards/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9VU68T7UJ;
-				INFOPLIST_FILE = MOIFlashcards/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MOIFlashcards/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
