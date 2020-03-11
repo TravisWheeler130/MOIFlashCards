@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19660196241209F400F2FAE7 /* Flashcards+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19660195241209F400F2FAE7 /* Flashcards+Convenience.swift */; };
 		1966019824120B0100F2FAE7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1966019724120B0100F2FAE7 /* CoreDataStack.swift */; };
+		1966019A241734D500F2FAE7 /* FlashcardsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19660199241734D500F2FAE7 /* FlashcardsController.swift */; };
 		19C3F63524006AFD00B6142B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F63424006AFD00B6142B /* AppDelegate.swift */; };
 		19C3F63724006AFD00B6142B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C3F63624006AFD00B6142B /* SceneDelegate.swift */; };
 		19C3F63C24006AFD00B6142B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C3F63A24006AFD00B6142B /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		19660195241209F400F2FAE7 /* Flashcards+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Flashcards+Convenience.swift"; sourceTree = "<group>"; };
 		1966019724120B0100F2FAE7 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		19660199241734D500F2FAE7 /* FlashcardsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsController.swift; sourceTree = "<group>"; };
 		19C3F63124006AFD00B6142B /* MOIFlashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOIFlashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C3F63424006AFD00B6142B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19C3F63624006AFD00B6142B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		19C3F64E24006BFF00B6142B /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				19660199241734D500F2FAE7 /* FlashcardsController.swift */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				19C3F63524006AFD00B6142B /* AppDelegate.swift in Sources */,
 				19C3F63F24006AFD00B6142B /* MOIFlashcards.xcdatamodeld in Sources */,
 				19660196241209F400F2FAE7 /* Flashcards+Convenience.swift in Sources */,
+				1966019A241734D500F2FAE7 /* FlashcardsController.swift in Sources */,
 				19C3F63724006AFD00B6142B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
